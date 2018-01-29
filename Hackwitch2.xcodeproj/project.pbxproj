@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48A8BACD201F21120095A2F9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A8BACC201F21120095A2F9 /* SecondViewController.swift */; };
 		7FA27BDA20167C6300B6173F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA27BD920167C6300B6173F /* AppDelegate.swift */; };
 		7FA27BDC20167C6300B6173F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA27BDB20167C6300B6173F /* ViewController.swift */; };
 		7FA27BDF20167C6300B6173F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA27BDD20167C6300B6173F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48A8BACC201F21120095A2F9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7FA27BD620167C6300B6173F /* Hackwitch2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackwitch2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA27BD920167C6300B6173F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FA27BDB20167C6300B6173F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				7FA27BD920167C6300B6173F /* AppDelegate.swift */,
 				7FA27BDB20167C6300B6173F /* ViewController.swift */,
 				7FA27BDD20167C6300B6173F /* Main.storyboard */,
+				48A8BACC201F21120095A2F9 /* SecondViewController.swift */,
 				7FA27BE020167C6300B6173F /* Assets.xcassets */,
 				7FA27BE220167C6300B6173F /* LaunchScreen.storyboard */,
 				7FA27BE520167C6300B6173F /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A8BACD201F21120095A2F9 /* SecondViewController.swift in Sources */,
 				7FA27BDC20167C6300B6173F /* ViewController.swift in Sources */,
 				7FA27BDA20167C6300B6173F /* AppDelegate.swift in Sources */,
 			);
