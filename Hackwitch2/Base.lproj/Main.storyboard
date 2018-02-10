@@ -19,27 +19,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhI-PQ-lGh">
-                                <rect key="frame" x="91" y="38" width="64" height="30"/>
+                                <rect key="frame" x="128" y="38" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Press Me"/>
                                 <connections>
                                     <action selector="pressmeButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vce-BW-LNg"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KG9-yQ-Zxs">
-                                <rect key="frame" x="219" y="425" width="61" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="hell yeah"/>
-                                <connections>
-                                    <action selector="hellayeahButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vec-xY-nWf"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rh-aW-p3I">
-                                <rect key="frame" x="82" y="180" width="82" height="30"/>
+                                <rect key="frame" x="119" y="185" width="82" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Segue Push"/>
                                 <connections>
                                     <segue destination="BSb-ds-qTY" kind="show" id="Ie3-BB-bFV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KG9-yQ-Zxs">
+                                <rect key="frame" x="128" y="332" width="61" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="hell yeah"/>
+                                <connections>
+                                    <action selector="hellayeahButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vec-xY-nWf"/>
                                 </connections>
                             </button>
                         </subviews>
