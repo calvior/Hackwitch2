@@ -29,11 +29,8 @@ class SecondViewController: UIViewController {
      
         self.view.backgroundColor=UIColor.blue
     
-        if changeColorButtonPressed(firstLabel.text = "I did it")
-        {   print("I did it")
-        }
-      
-        }
+        firstLabel.text = String("I did it")
+        
     
         
         //on button press set first label to the string, "I did it"
@@ -50,5 +47,6 @@ class SecondViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
 
 }
